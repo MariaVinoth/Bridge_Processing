@@ -1,0 +1,18 @@
+The Output is
+
+A B 1 Frame discarded
+X B 3 Frame sent on port 1
+A M 1 Frame broadcast on all out ports
+M X 4 FDB updated;Frame sent on port 3
+
+
+The final FDB table is
+
+A 1
+B 1
+C 2
+D 2
+E 3
+F 3
+X 3
+M 4

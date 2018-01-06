@@ -1,0 +1,19 @@
+The Output is
+
+A B 1 Frame broadcast on all out ports
+X M 2 FDB updated;Frame broadcast on all out ports
+M X 3 FDB updated;Frame sent on port 2
+B A 1 FDB updated;Frame discarded
+A C 1 Frame broadcast on all out ports
+Y C 2 FDB updated;Frame broadcast on all out ports
+C M 1 FDB updated;Frame sent on port 3
+
+
+The final FDB table is
+
+A 1
+X 2
+M 3
+B 1
+Y 2
+C 1
